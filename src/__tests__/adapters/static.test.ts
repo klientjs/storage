@@ -1,4 +1,4 @@
-import StaticStorage from '../../src/adapters/static';
+import StaticStorage from '../../adapters/static';
 
 test('constructor', () => expect(new StaticStorage({})).toBeInstanceOf(StaticStorage));
 

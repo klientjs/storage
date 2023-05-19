@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import CookieStorage from '../../src/adapters/cookie';
+import CookieStorage from '../../adapters/cookie';
 
 const state = { test: true };
 

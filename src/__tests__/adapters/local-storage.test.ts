@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 
-import LocalStorage from '../../src/adapters/local-storage';
+import LocalStorage from '../../adapters/local-storage';
 
 test('constructor', () => {
   const storage = new LocalStorage({ name: 'test' });

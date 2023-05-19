@@ -1,7 +1,7 @@
-import StorageFactory, { Storage } from '../src';
-import StaticStorage from '../src/adapters/static';
+import StorageFactory, { Storage } from '..';
+import StaticStorage from '../adapters/static';
 
-import type { StorageValue } from '../src/storage';
+import type { StorageValue } from '../storage';
 
 class CustomStorage extends Storage {
   write(_value: StorageValue): void {
